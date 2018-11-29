@@ -1,0 +1,36 @@
+{
+  "name": "react-crud-with-state",
+  "version": "1.0.0",
+  "description": "React CRUD application with the local state management",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgeorge10/react-crud-with-state.git"
+  },
+  "author": "Sam George",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/samgeorge10/react-crud-with-state/issues"
+  },
+  "homepage": "https://github.com/samgeorge10/react-crud-with-state#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
